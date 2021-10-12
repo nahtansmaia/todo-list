@@ -3,6 +3,7 @@ import { Container, Area, Header } from './App.styles';
 import { Item } from './types/Item';
 import { ListItem } from './components/ListItem';
 import { AddArea } from './components/AddArea';
+import { EmptyList } from './components/EmptyList';
 
 const App = () => {
 
@@ -35,13 +36,15 @@ const App = () => {
         <Header>TODO List</Header>
         <AddArea onEnter={handleAddTask}/>
 
-        {list.map((item, index) => (
+        {list.length > 0 ? list.map((item, index) => (
           <ListItem 
             key={index} 
             item={item} 
             onChange={handleTaskChange}
           />
-        ))}
+        )) : (
+          <EmptyList />
+        )}
         
       </Area>
     </Container>

@@ -3,7 +3,9 @@
 O projeto foi desenvolvido em ReactJS com typescript a fim de aprendizado.
 ### Objectivos:
 - Praticar lógica
-- Boas práticas;
+- Boas práticas, como:
+  - Clean Code; 
+  - Responsividade;
 - Aprender novas funcionalidades;
 - Adquirir experiência;
 
@@ -23,4 +25,4 @@ O projeto será iniciado no diretório [http://localhost:3000](http://localhost:
 
 ### Acesso
 
-Você pode verificar o resultado final [clicando aqui]() ou acessando http://
+Você pode verificar o resultado final [clicando aqui](https://todo-list-delta-roan.vercel.app/) ou acessando https://todo-list-delta-roan.vercel.app/
