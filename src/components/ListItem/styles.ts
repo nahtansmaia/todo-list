@@ -13,16 +13,45 @@ export const Container = styled.div(({ done }: ContainerProps) => (
     margin-top: 10px;
     margin-bottom: 10px;
     align-items: center;
+    justify-content:space-between;
 
-    label {
-        color: #CCC;
-        text-decoration: ${done ? 'line-through' : 'initial'}
-        font-size: calc(0.75em + 1vmin);
+    div {
+        label {
+            color: #CCC;
+            text-decoration: ${done ? 'line-through' : 'initial'};
+            font-size: calc(0.75em + 1vmin);
+        }
+
+        input {
+            vertical-align: middle;
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            vert
+        }
     }
 
-    input {
-        width: 20px;
-        height: 20px;
-        margin-right: 5px;
+    div {
+
+        button { 
+            background: red;
+            border-radius: 15px;
+            border: none;
+            opacity: 1;
+    
+            span {
+                color: #FFF;
+                font-size: calc(1em + 1vmin);
+            }
+        }
+    
+        button:hover {
+            background: red;
+            border-radius: 15px;
+            opacity: 0.8;
+            cursor: pointer;
+        }
     }
+    
+    
 `));
