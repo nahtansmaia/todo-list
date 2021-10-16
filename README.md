@@ -25,4 +25,4 @@ O projeto será iniciado no diretório [http://localhost:3000](http://localhost:
 
 ### Acesso
 
-Você pode verificar o resultado final [clicando aqui](https://todo-list-delta-roan.vercel.app/) ou acessando https://todo-list-delta-roan.vercel.app/
+Você pode verificar o resultado final <a href="https://todo-list-delta-roan.vercel.app/" target="#">clicando aqui</a> ou acessando https://todo-list-delta-roan.vercel.app/
