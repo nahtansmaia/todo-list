@@ -1,6 +1,7 @@
 # TODO List
 
 O projeto foi desenvolvido em ReactJS com typescript a fim de aprendizado.
+
 ### Objectivos:
 - Praticar lógica
 - Boas práticas, como:
